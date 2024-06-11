@@ -1,0 +1,7 @@
+
+<div>
+    @for (foto of fotos; track foto.id) {
+        <img src="{{foto.download_url}}" alt="{{foto.id}}"/>
+        <p>{{foto.author}}</p>
+    }
+  </div>
